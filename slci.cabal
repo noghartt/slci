@@ -1,0 +1,22 @@
+cabal-version:    2.4
+name:             slci
+version:          0.1.0.0
+
+author:           "Guilherme Ananias <noghartt>"
+maintainer:       hi@noghartt.dev
+
+executable slci
+    main-is:        Main.hs
+
+
+    build-depends:  base ^>=4.15.1.0
+                    , slci
+
+    hs-source-dirs:   app
+    default-language: Haskell2010
+
+library
+  build-depends:  base ^>=4.15.1.0
+
+  hs-source-dirs:   src
+  default-language: Haskell2010
